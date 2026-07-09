@@ -4,13 +4,13 @@
 
 ## 📊 Categorías de Impacto
 
-| Impacto | Símbolo | Descripción | Ejemplos |
-|---------|---------|-------------|----------|
-| **Muy Bajo** | ▽ | -0 a 5% FPS | Tools, UI, Decoración |
-| **Bajo** | ▼ | -5 a 10% FPS | Biomas, mobs simples |
-| **Medio** | ◆ | -10 a 20% FPS | Magia, dimensiones, LOD |
-| **Alto** | ▲ | -20 a 35% FPS | Shaders, múltiples dimensiones |
-| **Crítico** | ▲▲ | -35%+ FPS | The Roads More Travelled, renderizado extremo |
+| Impacto      | Símbolo | Descripción   | Ejemplos                                      |
+| ------------ | ------- | ------------- | --------------------------------------------- |
+| **Muy Bajo** | ▽       | -0 a 5% FPS   | Tools, UI, Decoración                         |
+| **Bajo**     | ▼       | -5 a 10% FPS  | Biomas, mobs simples                          |
+| **Medio**    | ◆       | -10 a 20% FPS | Magia, dimensiones, LOD                       |
+| **Alto**     | ▲       | -20 a 35% FPS | Shaders, múltiples dimensiones                |
+| **Crítico**  | ▲▲      | -35%+ FPS     | The Roads More Travelled, renderizado extremo |
 
 ---
 
@@ -84,6 +84,7 @@
 ### Para Servidores con 4GB RAM
 
 **Incluir:**
+
 - ✅ Rendimiento: Embeddium, Better FPS
 - ✅ Core: JEI, Waystones, Backpacks
 - ✅ Biomas: Terralith (solo overworld)
@@ -91,6 +92,7 @@
 - ✅ Magia: Sistema completo (bajo impacto)
 
 **Excluir:**
+
 - ❌ The Roads More Travelled
 - ❌ Distant Horizons
 - ❌ Múltiples dimensiones generativas
@@ -102,6 +104,7 @@
 ### Para Servidores con 8GB+ RAM
 
 **Incluir:**
+
 - ✅ Todo lo anterior
 - ✅ The Roads More Travelled (con validación)
 - ✅ Todas las dimensiones

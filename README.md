@@ -8,11 +8,11 @@
 
 ## 📚 Documentación
 
-| Archivo | Contenido |
-|---------|----------|
+| Archivo                                                | Contenido                                                       |
+| ------------------------------------------------------ | --------------------------------------------------------------- |
 | **[MODS_JAVA_PROPUESTOS.md](MODS_JAVA_PROPUESTOS.md)** | 📋 Catálogo completo (12 categorías, estados, compatibilidades) |
-| **[COMPATIBILIDADES.md](COMPATIBILIDADES.md)** | ⚙️ Notas de dependencias y conflictos conocidos |
-| **[RENDIMIENTO.md](RENDIMIENTO.md)** | ⚡ Impacto en FPS y optimizaciones |
+| **[COMPATIBILIDADES.md](COMPATIBILIDADES.md)**         | ⚙️ Notas de dependencias y conflictos conocidos                 |
+| **[RENDIMIENTO.md](RENDIMIENTO.md)**                   | ⚡ Impacto en FPS y optimizaciones                              |
 
 ---
 
@@ -62,9 +62,9 @@
 Cuando agregas un mod nuevo a `MODS_JAVA_PROPUESTOS.md`:
 
 ```markdown
-| **Nombre del Mod** | Versión | Estado | Detalles |
-|---|---|---|---|
-| **Mi Mod Favorito** | 1.20.1 | ✅ Sí | Breve descripción + por qué lo queremos |
+| **Nombre del Mod**  | Versión | Estado | Detalles                                |
+| ------------------- | ------- | ------ | --------------------------------------- |
+| **Mi Mod Favorito** | 1.20.1  | ✅ Sí  | Breve descripción + por qué lo queremos |
 ```
 
 ---
@@ -72,15 +72,18 @@ Cuando agregas un mod nuevo a `MODS_JAVA_PROPUESTOS.md`:
 ## ⚠️ Notas Críticas
 
 ### Epic Fight
+
 - ✅ Animaciones de combate BUENAS
 - 🔴 **Armas de otros mods se ven congeladas sin datapacks**
 - 📌 **Solución:** Buscar "Epic Fight Compatible" en CurseForge
 
 ### The Roads More Travelled
+
 - 🟡 **ALTO rendimiento** — genera caminos constantemente
 - 📌 **Solo si el servidor tiene recursos** (validar antes)
 
 ### Sodium vs Embeddium
+
 - ❌ Sodium: Rechazado (conflictos)
 - ✅ Embeddium: Alternativa segura para FPS
 

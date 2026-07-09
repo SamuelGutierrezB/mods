@@ -7,16 +7,19 @@
 ### 1. Epic Fight + Armas de Otros Mods
 
 **Problema:**
+
 - Epic Fight proporciona animaciones de combate
 - Armas de otros mods no tienen compatibilidad integrada
 - Resultado: El personaje se ve "congelado" al atacar con armas no-compatibles
 
 **Mods Afectados:**
+
 - ⚔️ MrCrayfish's Gun Mod
 - ⚔️ Epic Knights (armaduras, armas medievales)
 - ⚔️ Otros mods que agreguen armas
 
 **Soluciones:**
+
 1. Buscar **"Epic Fight Compatible Datapacks"** en CurseForge
 2. Buscar **"Epic Fight Addons"** para cada mod de armas
 3. Si no encuentran, **considerar sacrificar Epic Fight**
@@ -29,11 +32,13 @@
 ### 2. The Roads More Travelled - Alto Rendimiento
 
 **Problema:**
+
 - Este mod genera caminos con cada paso del jugador
 - Crea chunks continuamente para registrar rutas
 - Alto impacto en lag en servidores compartidos
 
 **Mitigación:**
+
 - Solo agregar si el servidor tiene recursos (8GB+ RAM)
 - Validar con 4+ jugadores en stress test
 - Considerar desactivar en zonas de alto tráfico
@@ -47,17 +52,18 @@
 
 **Alternativa:** Embeddium
 
-| Aspecto | Sodium | Embeddium |
-|---------|--------|-----------|
-| FPS | +++++ | ++++ |
+| Aspecto     | Sodium        | Embeddium |
+| ----------- | ------------- | --------- |
+| FPS         | +++++         | ++++      |
 | Estabilidad | ⚠️ Conflictos | ✅ Seguro |
-| Status | ❌ No usar | ✅ Usar |
+| Status      | ❌ No usar    | ✅ Usar   |
 
 ---
 
 ## 🟡 Dependencias Críticas
 
 ### Magia
+
 ```
 ┌─ Iron's Spells 'n Spellbooks ─┐
 │                              │
@@ -72,6 +78,7 @@ Orden de instalación:
 ```
 
 ### Mochilas
+
 ```
 Sophisticated Backpacks
      ↓ requiere
@@ -79,6 +86,7 @@ Sophisticated Core
 ```
 
 ### Construcción
+
 ```
 Litematica (moldes)
      ↓ pide
@@ -91,12 +99,14 @@ Framework (Fabric)
 ## 🟢 Grupos Compatibles
 
 ### Sistem de Magia Unificado
+
 ✅ **Iron's Spells 'n Spellbooks**  
 ✅ **Ars Nouveau** (+ Ars 'n Spells bridge)  
 ✅ **Apotheosis** (encantamientos RPG)  
 → Juntos crean un sistema mágico profundo
 
 ### Combate Épico
+
 ✅ **Epic Fight** (animaciones)  
 ✅ **Epic Knights** (armaduras/armas) + datapack  
 ✅ **MrCrayfish's Gun** (fusiles) + datapack  
@@ -105,12 +115,14 @@ Framework (Fabric)
 → Requiere datapacks de compatibilidad
 
 ### Cocina & Lifestyle
+
 ✅ **Farmer's Delight**  
 ✅ **Alex's Delight** (complemento)  
 ✅ **[Let's Do] Vinery** (bebidas)  
 → Sistema de comida expandido
 
 ### Dimensiones Temáticas
+
 ✅ **Terralith** (biomas overworld)  
 ✅ **Incendium** (Nether mejorado)  
 ✅ **Nullscape** (End mejorado)  
@@ -125,6 +137,7 @@ Framework (Fabric)
 ## 🔧 Configuraciones Recomendadas
 
 ### Instalación Básica (Core)
+
 ```
 Rendimiento:
 - Embeddium
@@ -143,6 +156,7 @@ Mods/Gameplay:
 ```
 
 ### Instalación Intermedia (+Magia & Combate)
+
 ```
 (Básica +)
 
@@ -163,6 +177,7 @@ Mundo:
 ```
 
 ### Instalación Completa (Todo)
+
 ```
 (Intermedia +)
 
