@@ -163,7 +163,7 @@ A:
 **Entrada:**
 
 ```
-.minecraft/mods/
+.minecraft/mods/gestion-servidor/tacz-costos/
 ├── NUEVOS_COSTOS_ARMAS.json
 ├── NUEVOS_COSTOS_BALAS.json
 └── MAPEO_MATERIALES_NUEVOS_TACZ.json
