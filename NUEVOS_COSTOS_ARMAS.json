@@ -9,7 +9,6 @@
         "materiales": {
           "hierro": 16,
           "madera": 6,
-          "carbon": 4,
           "polvo_redstone": 2
         }
       },
@@ -19,7 +18,6 @@
         "materiales": {
           "hierro": 16,
           "madera": 5,
-          "carbon": 4,
           "polvo_redstone": 2
         }
       },
@@ -29,7 +27,6 @@
         "materiales": {
           "hierro": 18,
           "madera": 8,
-          "carbon": 6,
           "polvo_redstone": 3
         }
       },
@@ -39,7 +36,6 @@
         "materiales": {
           "hierro": 18,
           "madera": 6,
-          "carbon": 6,
           "polvo_redstone": 3
         }
       },
@@ -51,7 +47,6 @@
           "oro": 8,
           "lapislazuli": 6,
           "polvo_redstone": 6,
-          "carbon": 8,
           "cuarzo": 4
         }
       },
@@ -64,7 +59,6 @@
           "diamante": 6,
           "vara_blaze": 4,
           "polvo_glowstone": 8,
-          "carbon": 12,
           "cuarzo": 8
         }
       },
@@ -77,7 +71,6 @@
           "diamante": 5,
           "vara_blaze": 4,
           "polvo_glowstone": 10,
-          "carbon": 8,
           "cuarzo": 10
         }
       },
@@ -89,7 +82,6 @@
           "oro": 10,
           "lapislazuli": 8,
           "polvo_redstone": 8,
-          "carbon": 10,
           "cuarzo": 6
         }
       },
@@ -102,7 +94,6 @@
           "lapislazuli": 12,
           "madera": 8,
           "polvo_redstone": 6,
-          "carbon": 8,
           "cuarzo": 4
         }
       }
@@ -116,8 +107,6 @@
           "lapislazuli": 14,
           "madera": 10,
           "polvo_glowstone": 10,
-          "bloque_magma": 4,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 10
         }
@@ -130,8 +119,6 @@
           "lapislazuli": 14,
           "madera": 10,
           "polvo_glowstone": 8,
-          "bloque_magma": 3,
-          "carbon": 14,
           "cuarzo": 6,
           "polvo_redstone": 8
         }
@@ -144,8 +131,6 @@
           "lapislazuli": 16,
           "madera": 10,
           "polvo_glowstone": 10,
-          "bloque_magma": 4,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 10
         }
@@ -158,8 +143,6 @@
           "lapislazuli": 14,
           "madera": 14,
           "polvo_glowstone": 10,
-          "bloque_magma": 4,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 10
         }
@@ -173,8 +156,6 @@
           "madera": 10,
           "amatista": 6,
           "polvo_glowstone": 12,
-          "bloque_magma": 4,
-          "carbon": 18,
           "cuarzo": 10,
           "polvo_redstone": 12
         }
@@ -187,8 +168,6 @@
           "oro": 28,
           "cuarzo": 16,
           "polvo_glowstone": 14,
-          "bloque_magma": 6,
-          "carbon": 22,
           "lapislazuli": 10,
           "polvo_redstone": 14
         }
@@ -201,8 +180,6 @@
           "oro": 28,
           "cuarzo": 16,
           "polvo_glowstone": 14,
-          "bloque_magma": 6,
-          "carbon": 22,
           "lapislazuli": 10,
           "polvo_redstone": 14
         }
@@ -215,8 +192,6 @@
           "oro": 22,
           "cuarzo": 14,
           "polvo_glowstone": 16,
-          "bloque_magma": 6,
-          "carbon": 24,
           "lapislazuli": 12,
           "polvo_redstone": 16
         }
@@ -229,8 +204,6 @@
           "oro": 16,
           "cuarzo": 10,
           "polvo_glowstone": 12,
-          "bloque_magma": 4,
-          "carbon": 18,
           "lapislazuli": 8,
           "polvo_redstone": 12
         }
@@ -244,8 +217,6 @@
           "diamante": 12,
           "vara_blaze": 8,
           "polvo_glowstone": 20,
-          "bloque_magma": 8,
-          "carbon": 32,
           "netherita": 2,
           "polvo_redstone": 20
         }
@@ -259,8 +230,6 @@
           "lapislazuli": 16,
           "madera": 10,
           "polvo_glowstone": 10,
-          "bloque_magma": 4,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 10
         }
@@ -274,8 +243,6 @@
           "lapislazuli": 24,
           "cuarzo": 16,
           "polvo_glowstone": 16,
-          "bloque_magma": 6,
-          "carbon": 22,
           "polvo_redstone": 16,
           "amatista": 4
         }
@@ -287,8 +254,6 @@
           "hierro": 36,
           "madera": 14,
           "polvo_glowstone": 8,
-          "bloque_magma": 3,
-          "carbon": 12,
           "lapislazuli": 8,
           "polvo_redstone": 8
         }
@@ -304,7 +269,6 @@
           "lapislazuli": 20,
           "madera": 48,
           "polvo_glowstone": 12,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 10
         }
@@ -318,7 +282,6 @@
           "diamante": 6,
           "polvo_glowstone": 14,
           "vara_blaze": 4,
-          "carbon": 18,
           "cuarzo": 10,
           "polvo_redstone": 12
         }
@@ -332,7 +295,6 @@
           "lapislazuli": 28,
           "polvo_glowstone": 16,
           "vara_blaze": 4,
-          "carbon": 16,
           "cuarzo": 10,
           "polvo_redstone": 14
         }
@@ -347,11 +309,8 @@
           "netherita": 8,
           "vara_blaze": 12,
           "polvo_glowstone": 28,
-          "bloque_magma": 14,
-          "carbon": 48,
           "cuarzo": 32,
-          "polvo_redstone": 32,
-          "bloque_netherite": 2
+          "polvo_redstone": 32
         }
       },
       {
@@ -364,11 +323,8 @@
           "netherita": 10,
           "vara_blaze": 14,
           "polvo_glowstone": 32,
-          "bloque_magma": 16,
-          "carbon": 56,
           "cuarzo": 36,
-          "polvo_redstone": 36,
-          "bloque_netherite": 3
+          "polvo_redstone": 36
         }
       },
       {
@@ -380,8 +336,6 @@
           "diamante": 10,
           "vara_blaze": 8,
           "polvo_glowstone": 20,
-          "bloque_magma": 8,
-          "carbon": 24,
           "cuarzo": 14,
           "polvo_redstone": 18,
           "netherita": 2
@@ -397,11 +351,8 @@
           "vara_blaze": 12,
           "netherita": 6,
           "polvo_glowstone": 24,
-          "bloque_magma": 12,
-          "carbon": 40,
           "cuarzo": 24,
-          "polvo_redstone": 24,
-          "bloque_netherite": 1
+          "polvo_redstone": 24
         }
       },
       {
@@ -413,8 +364,6 @@
           "diamante": 10,
           "vara_blaze": 6,
           "polvo_glowstone": 18,
-          "bloque_magma": 8,
-          "carbon": 28,
           "cuarzo": 16,
           "polvo_redstone": 18,
           "netherita": 2
@@ -428,7 +377,6 @@
         "materiales": {
           "hierro": 10,
           "madera": 8,
-          "carbon": 4,
           "polvo_redstone": 2
         }
       },
@@ -438,7 +386,6 @@
         "materiales": {
           "hierro": 16,
           "madera": 12,
-          "carbon": 6,
           "polvo_redstone": 3
         }
       },
@@ -449,8 +396,6 @@
           "hierro": 28,
           "madera": 14,
           "polvo_glowstone": 8,
-          "bloque_magma": 3,
-          "carbon": 12,
           "lapislazuli": 6,
           "polvo_redstone": 8
         }
@@ -464,12 +409,9 @@
           "diamante": 12,
           "vara_blaze": 8,
           "polvo_glowstone": 20,
-          "bloque_magma": 10,
           "netherita": 4,
-          "carbon": 28,
           "cuarzo": 16,
-          "polvo_redstone": 20,
-          "bloque_netherite": 1
+          "polvo_redstone": 20
         }
       },
       {
@@ -481,12 +423,9 @@
           "diamante": 12,
           "lapislazuli": 16,
           "polvo_glowstone": 24,
-          "bloque_magma": 12,
           "netherita": 4,
-          "carbon": 32,
           "cuarzo": 18,
-          "polvo_redstone": 24,
-          "bloque_netherite": 1
+          "polvo_redstone": 24
         }
       },
       {
@@ -498,9 +437,7 @@
           "diamante": 8,
           "lapislazuli": 16,
           "polvo_glowstone": 18,
-          "bloque_magma": 8,
           "netherita": 3,
-          "carbon": 24,
           "cuarzo": 14,
           "polvo_redstone": 18
         }
@@ -514,8 +451,6 @@
           "hierro": 32,
           "lapislazuli": 10,
           "polvo_glowstone": 8,
-          "bloque_magma": 3,
-          "carbon": 14,
           "cuarzo": 6,
           "polvo_redstone": 10
         }
@@ -527,8 +462,6 @@
           "hierro": 38,
           "lapislazuli": 12,
           "polvo_glowstone": 10,
-          "bloque_magma": 4,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 12
         }
@@ -541,8 +474,6 @@
           "oro": 16,
           "cuarzo": 10,
           "polvo_glowstone": 12,
-          "bloque_magma": 5,
-          "carbon": 20,
           "lapislazuli": 8,
           "polvo_redstone": 14
         }
@@ -556,8 +487,6 @@
           "lapislazuli": 18,
           "diamante": 16,
           "polvo_glowstone": 18,
-          "bloque_magma": 8,
-          "carbon": 24,
           "cuarzo": 14,
           "polvo_redstone": 18,
           "netherita": 2
@@ -572,8 +501,6 @@
           "cuarzo": 10,
           "diamante": 10,
           "polvo_glowstone": 18,
-          "bloque_magma": 8,
-          "carbon": 28,
           "lapislazuli": 12,
           "polvo_redstone": 18,
           "netherita": 2
@@ -590,12 +517,9 @@
           "diamante": 16,
           "vara_blaze": 10,
           "polvo_glowstone": 24,
-          "bloque_magma": 12,
           "netherita": 5,
-          "carbon": 36,
           "cuarzo": 20,
-          "polvo_redstone": 24,
-          "bloque_netherite": 2
+          "polvo_redstone": 24
         }
       },
       {
@@ -607,8 +531,6 @@
           "cuarzo": 16,
           "madera": 18,
           "polvo_glowstone": 18,
-          "bloque_magma": 8,
-          "carbon": 24,
           "lapislazuli": 12,
           "polvo_redstone": 18,
           "netherita": 2
@@ -623,12 +545,9 @@
           "diamante": 20,
           "vara_blaze": 12,
           "polvo_glowstone": 30,
-          "bloque_magma": 14,
           "netherita": 6,
-          "carbon": 44,
           "cuarzo": 26,
-          "polvo_redstone": 30,
-          "bloque_netherite": 2
+          "polvo_redstone": 30
         }
       },
       {
@@ -641,12 +560,8 @@
           "netherita": 16,
           "vara_blaze": 16,
           "polvo_glowstone": 40,
-          "bloque_magma": 20,
-          "carbon": 64,
           "cuarzo": 40,
-          "polvo_redstone": 40,
-          "bloque_netherite": 4,
-          "bloque_oro": 4
+          "polvo_redstone": 40
         }
       },
       {
@@ -658,12 +573,9 @@
           "lapislazuli": 32,
           "madera": 36,
           "polvo_glowstone": 20,
-          "bloque_magma": 10,
           "netherita": 3,
-          "carbon": 28,
           "cuarzo": 16,
-          "polvo_redstone": 20,
-          "bloque_netherite": 1
+          "polvo_redstone": 20
         }
       }
     ],
@@ -676,8 +588,6 @@
           "lapislazuli": 14,
           "madera": 14,
           "polvo_glowstone": 10,
-          "bloque_magma": 4,
-          "carbon": 16,
           "cuarzo": 8,
           "polvo_redstone": 12
         }
@@ -688,7 +598,6 @@
         "materiales": {
           "hierro": 5,
           "madera": 12,
-          "carbon": 3,
           "polvo_redstone": 1
         }
       },
@@ -701,8 +610,6 @@
           "lapislazuli": 14,
           "madera": 16,
           "polvo_glowstone": 16,
-          "bloque_magma": 8,
-          "carbon": 24,
           "cuarzo": 14,
           "polvo_redstone": 16,
           "netherita": 2
@@ -716,8 +623,6 @@
           "oro": 28,
           "lapislazuli": 16,
           "polvo_glowstone": 14,
-          "bloque_magma": 6,
-          "carbon": 20,
           "cuarzo": 12,
           "polvo_redstone": 14,
           "netherita": 1
@@ -731,8 +636,6 @@
           "lapislazuli": 6,
           "madera": 8,
           "polvo_glowstone": 6,
-          "bloque_magma": 2,
-          "carbon": 10,
           "cuarzo": 4,
           "polvo_redstone": 6
         }
@@ -746,12 +649,9 @@
           "diamante": 18,
           "vara_blaze": 10,
           "polvo_glowstone": 24,
-          "bloque_magma": 12,
           "netherita": 5,
-          "carbon": 32,
           "cuarzo": 20,
-          "polvo_redstone": 24,
-          "bloque_netherite": 2
+          "polvo_redstone": 24
         }
       },
       {
@@ -763,11 +663,9 @@
           "diamante": 8,
           "polvo_glowstone": 16,
           "vara_blaze": 6,
-          "carbon": 20,
           "cuarzo": 12,
           "polvo_redstone": 16,
-          "netherita": 2,
-          "bloque_netherite": 1
+          "netherita": 2
         }
       }
     ]
@@ -851,7 +749,9 @@
     },
     "bloque_oro": {
       "total_armas_con_bloque_oro": 1,
-      "armas": ["Minigun"]
+      "armas": [
+        "Minigun"
+      ]
     }
   }
 }
