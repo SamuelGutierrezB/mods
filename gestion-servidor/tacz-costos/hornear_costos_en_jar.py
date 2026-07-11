@@ -18,7 +18,7 @@ Requiere:
     - generar_recetas_tacz.py en la misma carpeta
     - NUEVOS_COSTOS_ARMAS.json, NUEVOS_COSTOS_BALAS.json,
       MAPEO_MATERIALES_NUEVOS_TACZ.json en la misma carpeta
-    - El .jar de TaCZ en la misma carpeta (mods/)
+    - El .jar de TaCZ en .minecraft/mods/ (dos niveles arriba de este script)
 """
 
 import json
@@ -50,19 +50,20 @@ def cargar_json(ruta: Path) -> dict:
 
 
 def main():
-    ruta_mods = Path(__file__).parent
+    ruta_script = Path(__file__).parent
+    ruta_mods = ruta_script.parent.parent  # .minecraft/mods (ahí vive el .jar, ya no junto al script)
     ruta_jar = encontrar_jar(ruta_mods)
 
     print(f"[OK] JAR detectado: {ruta_jar.name}")
 
-    generador = GeneradorRecetasTaCZ(str(ruta_mods))
+    generador = GeneradorRecetasTaCZ(str(ruta_script))
     if not generador.cargar_mapeo():
         for err in generador.errores:
             print(f"[ERROR] {err}")
         sys.exit(1)
 
-    datos_armas = cargar_json(ruta_mods / "NUEVOS_COSTOS_ARMAS.json")
-    datos_balas = cargar_json(ruta_mods / "NUEVOS_COSTOS_BALAS.json")
+    datos_armas = cargar_json(ruta_script / "NUEVOS_COSTOS_ARMAS.json")
+    datos_balas = cargar_json(ruta_script / "NUEVOS_COSTOS_BALAS.json")
 
     recetas_gun = generador.generar_diccionario_recetas_armas(datos_armas)
     recetas_ammo = generador.generar_diccionario_recetas_municiones(datos_balas)

@@ -15,8 +15,8 @@ Ejemplo:
 
 Requiere:
     - Python 3.7+
-    - El archivo JSON de costos debe estar en /mods/
-    - MAPEO_MATERIALES_NUEVOS_TACZ.json debe existir en /mods/
+    - El archivo JSON de costos debe estar en la misma carpeta que este script
+    - MAPEO_MATERIALES_NUEVOS_TACZ.json debe existir en la misma carpeta que este script
 """
 
 import json
@@ -298,15 +298,14 @@ def main():
 
     archivo_json = sys.argv[1]
 
-    # Detectar ruta de mods
+    # Detectar carpeta del script (debe contener el mapeo)
     ruta_script = Path(__file__).parent
 
-    # Probar si estamos en /mods/
     if (ruta_script / 'MAPEO_MATERIALES_NUEVOS_TACZ.json').exists():
         ruta_mods = ruta_script
     else:
         print("[ERROR] No se encontró MAPEO_MATERIALES_NUEVOS_TACZ.json")
-        print("Coloca el script en la carpeta /mods/ de Minecraft")
+        print("Coloca el script en la misma carpeta que MAPEO_MATERIALES_NUEVOS_TACZ.json")
         sys.exit(1)
 
     generador = GeneradorRecetasTaCZ(str(ruta_mods))
