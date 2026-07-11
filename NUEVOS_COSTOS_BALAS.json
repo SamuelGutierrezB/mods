@@ -1,0 +1,545 @@
+{
+  "mod": "Timeless and Classics Zero (TaCZ)",
+  "version": "1.20.1",
+  "_comentario_global": "Costos rebalanceados para servir como sumidero de recursos basicos (cobre, polvora, redstone, cuarzo). Las balas de alto calibre compiten directamente con la fabricacion de armas.",
+  "tabla_costos_municiones": {
+    "pistola_cartuchos": [
+      {
+        "nombre": ".22 WMR",
+        "id": "tacz:22wmr",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 64,
+        "materiales": {
+          "cobre": 12,
+          "pólvora": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.19,
+          "pólvora": 0.05
+        }
+      },
+      {
+        "nombre": ".45 ACP",
+        "id": "tacz:45acp",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 24,
+        "materiales": {
+          "cobre": 14,
+          "pólvora": 4
+        },
+        "costo_por_unidad": {
+          "cobre": 0.58,
+          "pólvora": 0.17
+        }
+      },
+      {
+        "nombre": ".46x30",
+        "id": "tacz:46x30",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 16,
+          "pólvora": 4,
+          "polvo_redstone": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.5,
+          "pólvora": 0.13,
+          "polvo_redstone": 0.06
+        }
+      },
+      {
+        "nombre": ".57x28",
+        "id": "tacz:57x28",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 20,
+          "lapislazuli": 6,
+          "pólvora": 5,
+          "polvo_redstone": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.63,
+          "lapislazuli": 0.19,
+          "pólvora": 0.16,
+          "polvo_redstone": 0.09
+        }
+      },
+      {
+        "nombre": ".762x25",
+        "id": "tacz:762x25",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 14,
+          "pólvora": 4,
+          "polvo_redstone": 1
+        },
+        "costo_por_unidad": {
+          "cobre": 0.44,
+          "pólvora": 0.13,
+          "polvo_redstone": 0.03
+        }
+      },
+      {
+        "nombre": "9mm",
+        "id": "tacz:9mm",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 48,
+        "materiales": {
+          "cobre": 15,
+          "pólvora": 5
+        },
+        "costo_por_unidad": {
+          "cobre": 0.31,
+          "pólvora": 0.10
+        }
+      }
+    ],
+    "rifle_cartuchos": [
+      {
+        "nombre": ".308 Winchester",
+        "id": "tacz:308",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 40,
+        "materiales": {
+          "cobre": 35,
+          "lapislazuli": 2,
+          "pólvora": 12,
+          "cuarzo": 4
+        },
+        "costo_por_unidad": {
+          "cobre": 0.88,
+          "lapislazuli": 0.05,
+          "pólvora": 0.30,
+          "cuarzo": 0.10
+        }
+      },
+      {
+        "nombre": ".30-06 Springfield",
+        "id": "tacz:30_06",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 24,
+        "materiales": {
+          "cobre": 28,
+          "pólvora": 8,
+          "cuarzo": 4
+        },
+        "costo_por_unidad": {
+          "cobre": 1.17,
+          "pólvora": 0.33,
+          "cuarzo": 0.17
+        }
+      },
+      {
+        "nombre": ".338 Lapua Magnum",
+        "id": "tacz:338",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 12,
+        "materiales": {
+          "cobre": 32,
+          "lapislazuli": 10,
+          "pólvora": 12,
+          "cuarzo": 8
+        },
+        "costo_por_unidad": {
+          "cobre": 2.67,
+          "lapislazuli": 0.83,
+          "pólvora": 1.00,
+          "cuarzo": 0.67
+        }
+      },
+      {
+        "nombre": ".357 Magnum",
+        "id": "tacz:357mag",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 30,
+          "pólvora": 8,
+          "polvo_redstone": 4
+        },
+        "costo_por_unidad": {
+          "cobre": 0.94,
+          "pólvora": 0.25,
+          "polvo_redstone": 0.13
+        }
+      },
+      {
+        "nombre": ".45-70 Government",
+        "id": "tacz:45_70",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 24,
+        "materiales": {
+          "cobre": 40,
+          "lapislazuli": 8,
+          "pólvora": 10,
+          "polvo_redstone": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 1.67,
+          "lapislazuli": 0.33,
+          "pólvora": 0.42,
+          "polvo_redstone": 0.25
+        }
+      },
+      {
+        "nombre": ".500 Magnum",
+        "id": "tacz:500mag",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 16,
+        "materiales": {
+          "cobre": 50,
+          "lapislazuli": 12,
+          "pólvora": 15,
+          "polvo_redstone": 8
+        },
+        "costo_por_unidad": {
+          "cobre": 3.13,
+          "lapislazuli": 0.75,
+          "pólvora": 0.94,
+          "polvo_redstone": 0.50
+        }
+      },
+      {
+        "nombre": ".50 AE",
+        "id": "tacz:50ae",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 24,
+        "materiales": {
+          "cobre": 40,
+          "lapislazuli": 8,
+          "pólvora": 10,
+          "polvo_redstone": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 1.67,
+          "lapislazuli": 0.33,
+          "pólvora": 0.42,
+          "polvo_redstone": 0.25
+        }
+      },
+      {
+        "nombre": ".5.45x39",
+        "id": "tacz:545x39",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 30,
+        "materiales": {
+          "cobre": 18,
+          "pólvora": 5,
+          "cuarzo": 3,
+          "polvo_redstone": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.60,
+          "pólvora": 0.17,
+          "cuarzo": 0.10,
+          "polvo_redstone": 0.07
+        }
+      },
+      {
+        "nombre": ".5.56x45 NATO",
+        "id": "tacz:556x45",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 30,
+        "materiales": {
+          "cobre": 20,
+          "pólvora": 8,
+          "cuarzo": 4,
+          "polvo_redstone": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.67,
+          "pólvora": 0.27,
+          "cuarzo": 0.13,
+          "polvo_redstone": 0.07
+        }
+      },
+      {
+        "nombre": ".5.8x42",
+        "id": "tacz:58x42",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 28,
+        "materiales": {
+          "cobre": 22,
+          "pólvora": 8,
+          "cuarzo": 4,
+          "polvo_redstone": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.79,
+          "pólvora": 0.29,
+          "cuarzo": 0.14,
+          "polvo_redstone": 0.11
+        }
+      },
+      {
+        "nombre": ".6.8x51 Fury",
+        "id": "tacz:68x51fury",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 24,
+        "materiales": {
+          "cobre": 25,
+          "pólvora": 10,
+          "cuarzo": 6,
+          "polvo_redstone": 4
+        },
+        "costo_por_unidad": {
+          "cobre": 1.04,
+          "pólvora": 0.42,
+          "cuarzo": 0.25,
+          "polvo_redstone": 0.17
+        }
+      },
+      {
+        "nombre": ".7.62x39",
+        "id": "tacz:762x39",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 28,
+        "materiales": {
+          "cobre": 22,
+          "pólvora": 8,
+          "cuarzo": 6,
+          "polvo_redstone": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.79,
+          "pólvora": 0.29,
+          "cuarzo": 0.21,
+          "polvo_redstone": 0.07
+        }
+      },
+      {
+        "nombre": ".7.62x54R",
+        "id": "tacz:762x54",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 40,
+        "materiales": {
+          "cobre": 35,
+          "pólvora": 12,
+          "lapislazuli": 8,
+          "cuarzo": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 0.88,
+          "pólvora": 0.30,
+          "lapislazuli": 0.20,
+          "cuarzo": 0.15
+        }
+      },
+      {
+        "nombre": ".7.92x57 Mauser",
+        "id": "tacz:792x57",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 28,
+          "pólvora": 10,
+          "cuarzo": 6,
+          "polvo_redstone": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.88,
+          "pólvora": 0.31,
+          "cuarzo": 0.19,
+          "polvo_redstone": 0.09
+        }
+      }
+    ],
+    "escopeta_cartuchos": [
+      {
+        "nombre": "12 Gauge",
+        "id": "tacz:12g",
+        "grupo": "shotgun_shells",
+        "cantidad_producida": 16,
+        "materiales": {
+          "cobre": 20,
+          "pepita_hierro": 24,
+          "pólvora": 8,
+          "polvo_redstone": 4
+        },
+        "costo_por_unidad": {
+          "cobre": 1.25,
+          "pepita_hierro": 1.50,
+          "pólvora": 0.50,
+          "polvo_redstone": 0.25
+        }
+      }
+    ],
+    "explosivos": [
+      {
+        "nombre": "40mm Grenade",
+        "id": "tacz:40mm",
+        "grupo": "explosives",
+        "cantidad_producida": 4,
+        "materiales": {
+          "hierro": 6,
+          "cobre": 15,
+          "pólvora": 12,
+          "polvo_redstone": 4
+        },
+        "costo_por_unidad": {
+          "hierro": 1.50,
+          "cobre": 3.75,
+          "pólvora": 3.00,
+          "polvo_redstone": 1.00
+        }
+      },
+      {
+        "nombre": ".50 BMG",
+        "id": "tacz:50bmg",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 12,
+        "materiales": {
+          "cobre": 120,
+          "lapislazuli": 16,
+          "vara_blaze": 2,
+          "polvo_glowstone": 8,
+          "pólvora": 25,
+          "cuarzo": 12
+        },
+        "costo_por_unidad": {
+          "cobre": 10.00,
+          "lapislazuli": 1.33,
+          "vara_blaze": 0.17,
+          "polvo_glowstone": 0.67,
+          "pólvora": 2.08,
+          "cuarzo": 1.00
+        }
+      },
+      {
+        "nombre": "RPG-7 Rocket",
+        "id": "tacz:rpg_rocket",
+        "grupo": "explosives",
+        "cantidad_producida": 1,
+        "materiales": {
+          "hierro": 10,
+          "cobre": 40,
+          "pólvora": 20,
+          "polvo_glowstone": 10,
+          "lapislazuli": 8,
+          "cuarzo": 8
+        },
+        "costo_por_unidad": {
+          "hierro": 10.00,
+          "cobre": 40.00,
+          "pólvora": 20.00,
+          "polvo_glowstone": 10.00,
+          "lapislazuli": 8.00,
+          "cuarzo": 8.00
+        }
+      }
+    ]
+  },
+  "resumen_materiales_municiones": {
+    "cobre": {
+      "total_municiones_usan": 24,
+      "mas_cara": {
+        "municion": "RPG-7 Rocket",
+        "cantidad": 40
+      },
+      "mas_barata": {
+        "municion": ".22 WMR",
+        "cantidad": 12
+      }
+    },
+    "pólvora": {
+      "total_municiones_usan": 25,
+      "mas_cara": {
+        "municion": "RPG-7 Rocket",
+        "cantidad": 20
+      },
+      "mas_barata": {
+        "municion": ".22 WMR",
+        "cantidad": 3
+      }
+    },
+    "lapislazuli": {
+      "total_municiones_usan": 12,
+      "mas_cara": {
+        "municion": "RPG-7 Rocket",
+        "cantidad": 8
+      },
+      "mas_barata": {
+        "municion": ".57x28",
+        "cantidad": 6
+      }
+    },
+    "pepita_hierro": {
+      "total_municiones_usan": 1,
+      "mas_cara": {
+        "municion": "12 Gauge",
+        "cantidad": 24
+      }
+    },
+    "hierro": {
+      "total_municiones_usan": 2,
+      "mas_cara": {
+        "municion": "RPG-7 Rocket",
+        "cantidad": 10
+      },
+      "mas_barata": {
+        "municion": "40mm Grenade",
+        "cantidad": 6
+      }
+    },
+    "vara_blaze": {
+      "total_municiones_usan": 1,
+      "mas_cara": {
+        "municion": ".50 BMG",
+        "cantidad": 2
+      }
+    },
+    "polvo_redstone": {
+      "total_municiones_usan": 18,
+      "mas_cara": {
+        "municion": ".500 Magnum",
+        "cantidad": 8
+      },
+      "mas_barata": {
+        "municion": "9mm",
+        "cantidad": 0
+      }
+    },
+    "cuarzo": {
+      "total_municiones_usan": 16,
+      "mas_cara": {
+        "municion": "RPG-7 Rocket",
+        "cantidad": 8
+      },
+      "mas_barata": {
+        "municion": ".5.45x39",
+        "cantidad": 3
+      }
+    },
+    "polvo_glowstone": {
+      "total_municiones_usan": 2,
+      "mas_cara": {
+        "municion": "RPG-7 Rocket",
+        "cantidad": 10
+      },
+      "mas_barata": {
+        "municion": ".50 BMG",
+        "cantidad": 8
+      }
+    }
+  },
+  "estadisticas": {
+    "total_tipos_municion": 25,
+    "costo_mas_alto_por_unidad": {
+      "municion": "RPG-7 Rocket",
+      "hierro": 10.0,
+      "cobre": 40.0,
+      "pólvora": 20.0,
+      "polvo_glowstone": 10.0,
+      "lapislazuli": 8.0,
+      "cuarzo": 8.0
+    },
+    "costo_mas_bajo_por_unidad": {
+      "municion": ".22 WMR",
+      "cobre": 0.19,
+      "pólvora": 0.05
+    }
+  }
+}

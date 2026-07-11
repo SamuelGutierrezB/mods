@@ -1,0 +1,757 @@
+{
+  "mod": "Timeless and Classics Zero (TaCZ)",
+  "version": "1.20.1",
+  "tabla_costos": {
+    "pistolas": [
+      {
+        "nombre": "CZ75",
+        "id": "tacz:cz75",
+        "materiales": {
+          "hierro": 16,
+          "madera": 6,
+          "polvo_redstone": 2
+        }
+      },
+      {
+        "nombre": "Glock 17",
+        "id": "tacz:glock_17",
+        "materiales": {
+          "hierro": 16,
+          "madera": 5,
+          "polvo_redstone": 2
+        }
+      },
+      {
+        "nombre": "M1911",
+        "id": "tacz:m1911",
+        "materiales": {
+          "hierro": 18,
+          "madera": 8,
+          "polvo_redstone": 3
+        }
+      },
+      {
+        "nombre": "M9A4",
+        "id": "tacz:m9a4",
+        "materiales": {
+          "hierro": 18,
+          "madera": 6,
+          "polvo_redstone": 3
+        }
+      },
+      {
+        "nombre": "P320",
+        "id": "tacz:p320",
+        "materiales": {
+          "hierro": 24,
+          "oro": 8,
+          "lapislazuli": 6,
+          "polvo_redstone": 6,
+          "cuarzo": 4
+        }
+      },
+      {
+        "nombre": "Desert Eagle",
+        "id": "tacz:deagle",
+        "materiales": {
+          "hierro": 36,
+          "oro": 14,
+          "diamante": 6,
+          "vara_blaze": 4,
+          "polvo_glowstone": 8,
+          "cuarzo": 8
+        }
+      },
+      {
+        "nombre": "Desert Eagle (Golden)",
+        "id": "tacz:deagle_golden",
+        "materiales": {
+          "hierro": 16,
+          "oro": 48,
+          "diamante": 5,
+          "vara_blaze": 4,
+          "polvo_glowstone": 10,
+          "cuarzo": 10
+        }
+      },
+      {
+        "nombre": "HK MK23",
+        "id": "tacz:hk_mk23",
+        "materiales": {
+          "hierro": 32,
+          "oro": 10,
+          "lapislazuli": 8,
+          "polvo_redstone": 8,
+          "cuarzo": 6
+        }
+      },
+      {
+        "nombre": "Rhino 357",
+        "id": "tacz:rhino357",
+        "materiales": {
+          "hierro": 28,
+          "oro": 10,
+          "lapislazuli": 12,
+          "madera": 8,
+          "polvo_redstone": 6,
+          "cuarzo": 4
+        }
+      }
+    ],
+    "rifles_asalto": [
+      {
+        "nombre": "M4A1",
+        "id": "tacz:m4a1",
+        "materiales": {
+          "hierro": 48,
+          "lapislazuli": 14,
+          "madera": 10,
+          "polvo_glowstone": 10,
+          "cuarzo": 8,
+          "polvo_redstone": 10
+        }
+      },
+      {
+        "nombre": "M16A1",
+        "id": "tacz:m16a1",
+        "materiales": {
+          "hierro": 42,
+          "lapislazuli": 14,
+          "madera": 10,
+          "polvo_glowstone": 8,
+          "cuarzo": 6,
+          "polvo_redstone": 8
+        }
+      },
+      {
+        "nombre": "M16A4",
+        "id": "tacz:m16a4",
+        "materiales": {
+          "hierro": 44,
+          "lapislazuli": 16,
+          "madera": 10,
+          "polvo_glowstone": 10,
+          "cuarzo": 8,
+          "polvo_redstone": 10
+        }
+      },
+      {
+        "nombre": "AK47",
+        "id": "tacz:ak47",
+        "materiales": {
+          "hierro": 48,
+          "lapislazuli": 14,
+          "madera": 14,
+          "polvo_glowstone": 10,
+          "cuarzo": 8,
+          "polvo_redstone": 10
+        }
+      },
+      {
+        "nombre": "AUG",
+        "id": "tacz:aug",
+        "materiales": {
+          "hierro": 50,
+          "lapislazuli": 16,
+          "madera": 10,
+          "amatista": 6,
+          "polvo_glowstone": 12,
+          "cuarzo": 10,
+          "polvo_redstone": 12
+        }
+      },
+      {
+        "nombre": "G36K",
+        "id": "tacz:g36k",
+        "materiales": {
+          "hierro": 64,
+          "oro": 28,
+          "cuarzo": 16,
+          "polvo_glowstone": 14,
+          "lapislazuli": 10,
+          "polvo_redstone": 14
+        }
+      },
+      {
+        "nombre": "HK416D",
+        "id": "tacz:hk416d",
+        "materiales": {
+          "hierro": 64,
+          "oro": 28,
+          "cuarzo": 16,
+          "polvo_glowstone": 14,
+          "lapislazuli": 10,
+          "polvo_redstone": 14
+        }
+      },
+      {
+        "nombre": "HK G3",
+        "id": "tacz:hk_g3",
+        "materiales": {
+          "hierro": 72,
+          "oro": 22,
+          "cuarzo": 14,
+          "polvo_glowstone": 16,
+          "lapislazuli": 12,
+          "polvo_redstone": 16
+        }
+      },
+      {
+        "nombre": "SCAR-L",
+        "id": "tacz:scar_l",
+        "materiales": {
+          "hierro": 56,
+          "oro": 16,
+          "cuarzo": 10,
+          "polvo_glowstone": 12,
+          "lapislazuli": 8,
+          "polvo_redstone": 12
+        }
+      },
+      {
+        "nombre": "SCAR-H",
+        "id": "tacz:scar_h",
+        "materiales": {
+          "hierro": 96,
+          "oro": 32,
+          "diamante": 12,
+          "vara_blaze": 8,
+          "polvo_glowstone": 20,
+          "netherita": 2,
+          "polvo_redstone": 20
+        }
+      },
+      {
+        "nombre": "QBZ-95",
+        "id": "tacz:qbz_95",
+        "materiales": {
+          "hierro": 48,
+          "oro": 10,
+          "lapislazuli": 16,
+          "madera": 10,
+          "polvo_glowstone": 10,
+          "cuarzo": 8,
+          "polvo_redstone": 10
+        }
+      },
+      {
+        "nombre": "QBZ-191",
+        "id": "tacz:qbz_191",
+        "materiales": {
+          "hierro": 64,
+          "oro": 20,
+          "lapislazuli": 24,
+          "cuarzo": 16,
+          "polvo_glowstone": 16,
+          "polvo_redstone": 16,
+          "amatista": 4
+        }
+      },
+      {
+        "nombre": "Type 81",
+        "id": "tacz:type_81",
+        "materiales": {
+          "hierro": 36,
+          "madera": 14,
+          "polvo_glowstone": 8,
+          "lapislazuli": 8,
+          "polvo_redstone": 8
+        }
+      }
+    ],
+    "rifles_francotirador": [
+      {
+        "nombre": "Kar98",
+        "id": "tacz:kar98",
+        "materiales": {
+          "hierro": 32,
+          "oro": 10,
+          "lapislazuli": 20,
+          "madera": 48,
+          "polvo_glowstone": 12,
+          "cuarzo": 8,
+          "polvo_redstone": 10
+        }
+      },
+      {
+        "nombre": "M700",
+        "id": "tacz:m700",
+        "materiales": {
+          "hierro": 48,
+          "oro": 12,
+          "diamante": 6,
+          "polvo_glowstone": 14,
+          "vara_blaze": 4,
+          "cuarzo": 10,
+          "polvo_redstone": 12
+        }
+      },
+      {
+        "nombre": "Lone Trail",
+        "id": "tacz:lonetrail",
+        "materiales": {
+          "hierro": 44,
+          "oro": 12,
+          "lapislazuli": 28,
+          "polvo_glowstone": 16,
+          "vara_blaze": 4,
+          "cuarzo": 10,
+          "polvo_redstone": 14
+        }
+      },
+      {
+        "nombre": "M95",
+        "id": "tacz:m95",
+        "materiales": {
+          "hierro": 280,
+          "oro": 72,
+          "diamante": 28,
+          "netherita": 8,
+          "vara_blaze": 12,
+          "polvo_glowstone": 28,
+          "cuarzo": 32,
+          "polvo_redstone": 32
+        }
+      },
+      {
+        "nombre": "M107",
+        "id": "tacz:m107",
+        "materiales": {
+          "hierro": 320,
+          "oro": 80,
+          "diamante": 32,
+          "netherita": 10,
+          "vara_blaze": 14,
+          "polvo_glowstone": 32,
+          "cuarzo": 36,
+          "polvo_redstone": 36
+        }
+      },
+      {
+        "nombre": "SPR-15 HB",
+        "id": "tacz:spr15hb",
+        "materiales": {
+          "hierro": 72,
+          "oro": 20,
+          "diamante": 10,
+          "vara_blaze": 8,
+          "polvo_glowstone": 20,
+          "cuarzo": 14,
+          "polvo_redstone": 18,
+          "netherita": 2
+        }
+      },
+      {
+        "nombre": "AI AWP",
+        "id": "tacz:ai_awp",
+        "materiales": {
+          "hierro": 200,
+          "oro": 64,
+          "diamante": 20,
+          "vara_blaze": 12,
+          "netherita": 6,
+          "polvo_glowstone": 24,
+          "cuarzo": 24,
+          "polvo_redstone": 24
+        }
+      },
+      {
+        "nombre": "MK14",
+        "id": "tacz:mk14",
+        "materiales": {
+          "hierro": 80,
+          "oro": 32,
+          "diamante": 10,
+          "vara_blaze": 6,
+          "polvo_glowstone": 18,
+          "cuarzo": 16,
+          "polvo_redstone": 18,
+          "netherita": 2
+        }
+      }
+    ],
+    "escopetas": [
+      {
+        "nombre": "DB Short",
+        "id": "tacz:db_short",
+        "materiales": {
+          "hierro": 10,
+          "madera": 8,
+          "polvo_redstone": 2
+        }
+      },
+      {
+        "nombre": "DB Long",
+        "id": "tacz:db_long",
+        "materiales": {
+          "hierro": 16,
+          "madera": 12,
+          "polvo_redstone": 3
+        }
+      },
+      {
+        "nombre": "M870",
+        "id": "tacz:m870",
+        "materiales": {
+          "hierro": 28,
+          "madera": 14,
+          "polvo_glowstone": 8,
+          "lapislazuli": 6,
+          "polvo_redstone": 8
+        }
+      },
+      {
+        "nombre": "AA-12",
+        "id": "tacz:aa12",
+        "materiales": {
+          "hierro": 72,
+          "oro": 28,
+          "diamante": 12,
+          "vara_blaze": 8,
+          "polvo_glowstone": 20,
+          "netherita": 4,
+          "cuarzo": 16,
+          "polvo_redstone": 20
+        }
+      },
+      {
+        "nombre": "SPAS-12",
+        "id": "tacz:spas_12",
+        "materiales": {
+          "hierro": 96,
+          "oro": 32,
+          "diamante": 12,
+          "lapislazuli": 16,
+          "polvo_glowstone": 24,
+          "netherita": 4,
+          "cuarzo": 18,
+          "polvo_redstone": 24
+        }
+      },
+      {
+        "nombre": "M1014",
+        "id": "tacz:m1014",
+        "materiales": {
+          "hierro": 64,
+          "oro": 24,
+          "diamante": 8,
+          "lapislazuli": 16,
+          "polvo_glowstone": 18,
+          "netherita": 3,
+          "cuarzo": 14,
+          "polvo_redstone": 18
+        }
+      }
+    ],
+    "subfusiles": [
+      {
+        "nombre": "UZI",
+        "id": "tacz:uzi",
+        "materiales": {
+          "hierro": 32,
+          "lapislazuli": 10,
+          "polvo_glowstone": 8,
+          "cuarzo": 6,
+          "polvo_redstone": 10
+        }
+      },
+      {
+        "nombre": "HK MP5A5",
+        "id": "tacz:hk_mp5a5",
+        "materiales": {
+          "hierro": 38,
+          "lapislazuli": 12,
+          "polvo_glowstone": 10,
+          "cuarzo": 8,
+          "polvo_redstone": 12
+        }
+      },
+      {
+        "nombre": "UMP45",
+        "id": "tacz:ump45",
+        "materiales": {
+          "hierro": 56,
+          "oro": 16,
+          "cuarzo": 10,
+          "polvo_glowstone": 12,
+          "lapislazuli": 8,
+          "polvo_redstone": 14
+        }
+      },
+      {
+        "nombre": "Vector 45",
+        "id": "tacz:vector45",
+        "materiales": {
+          "hierro": 60,
+          "oro": 24,
+          "lapislazuli": 18,
+          "diamante": 16,
+          "polvo_glowstone": 18,
+          "cuarzo": 14,
+          "polvo_redstone": 18,
+          "netherita": 2
+        }
+      },
+      {
+        "nombre": "P90",
+        "id": "tacz:p90",
+        "materiales": {
+          "hierro": 72,
+          "oro": 22,
+          "cuarzo": 10,
+          "diamante": 10,
+          "polvo_glowstone": 18,
+          "lapislazuli": 12,
+          "polvo_redstone": 18,
+          "netherita": 2
+        }
+      }
+    ],
+    "rifles_metralleta": [
+      {
+        "nombre": "M249",
+        "id": "tacz:m249",
+        "materiales": {
+          "hierro": 100,
+          "oro": 32,
+          "diamante": 16,
+          "vara_blaze": 10,
+          "polvo_glowstone": 24,
+          "netherita": 5,
+          "cuarzo": 20,
+          "polvo_redstone": 24
+        }
+      },
+      {
+        "nombre": "RPK",
+        "id": "tacz:rpk",
+        "materiales": {
+          "hierro": 60,
+          "oro": 22,
+          "cuarzo": 16,
+          "madera": 18,
+          "polvo_glowstone": 18,
+          "lapislazuli": 12,
+          "polvo_redstone": 18,
+          "netherita": 2
+        }
+      },
+      {
+        "nombre": "FN Evolys",
+        "id": "tacz:fn_evolys",
+        "materiales": {
+          "hierro": 140,
+          "oro": 48,
+          "diamante": 20,
+          "vara_blaze": 12,
+          "polvo_glowstone": 30,
+          "netherita": 6,
+          "cuarzo": 26,
+          "polvo_redstone": 30
+        }
+      },
+      {
+        "nombre": "Minigun",
+        "id": "tacz:minigun",
+        "materiales": {
+          "hierro": 320,
+          "oro": 120,
+          "diamante": 56,
+          "netherita": 16,
+          "vara_blaze": 16,
+          "polvo_glowstone": 40,
+          "cuarzo": 40,
+          "polvo_redstone": 40
+        }
+      },
+      {
+        "nombre": "FN FAL",
+        "id": "tacz:fn_fal",
+        "materiales": {
+          "hierro": 64,
+          "oro": 24,
+          "lapislazuli": 32,
+          "madera": 36,
+          "polvo_glowstone": 20,
+          "netherita": 3,
+          "cuarzo": 16,
+          "polvo_redstone": 20
+        }
+      }
+    ],
+    "especiales": [
+      {
+        "nombre": "SKS Tactical",
+        "id": "tacz:sks_tactical",
+        "materiales": {
+          "hierro": 44,
+          "lapislazuli": 14,
+          "madera": 14,
+          "polvo_glowstone": 10,
+          "cuarzo": 8,
+          "polvo_redstone": 12
+        }
+      },
+      {
+        "nombre": "Springfield 1873",
+        "id": "tacz:springfield1873",
+        "materiales": {
+          "hierro": 5,
+          "madera": 12,
+          "polvo_redstone": 1
+        }
+      },
+      {
+        "nombre": "RPG-7",
+        "id": "tacz:rpg7",
+        "materiales": {
+          "hierro": 68,
+          "oro": 22,
+          "lapislazuli": 14,
+          "madera": 16,
+          "polvo_glowstone": 16,
+          "cuarzo": 14,
+          "polvo_redstone": 16,
+          "netherita": 2
+        }
+      },
+      {
+        "nombre": "M320",
+        "id": "tacz:m320",
+        "materiales": {
+          "hierro": 48,
+          "oro": 28,
+          "lapislazuli": 16,
+          "polvo_glowstone": 14,
+          "cuarzo": 12,
+          "polvo_redstone": 14,
+          "netherita": 1
+        }
+      },
+      {
+        "nombre": "B93R",
+        "id": "tacz:b93r",
+        "materiales": {
+          "hierro": 22,
+          "lapislazuli": 6,
+          "madera": 8,
+          "polvo_glowstone": 6,
+          "cuarzo": 4,
+          "polvo_redstone": 6
+        }
+      },
+      {
+        "nombre": "Taurus 500",
+        "id": "tacz:taurus500",
+        "materiales": {
+          "hierro": 84,
+          "oro": 72,
+          "diamante": 18,
+          "vara_blaze": 10,
+          "polvo_glowstone": 24,
+          "netherita": 5,
+          "cuarzo": 20,
+          "polvo_redstone": 24
+        }
+      },
+      {
+        "nombre": "Timeless 50",
+        "id": "tacz:timeless50",
+        "materiales": {
+          "hierro": 48,
+          "oro": 16,
+          "diamante": 8,
+          "polvo_glowstone": 16,
+          "vara_blaze": 6,
+          "cuarzo": 12,
+          "polvo_redstone": 16,
+          "netherita": 2
+        }
+      }
+    ]
+  },
+  "resumen_materiales": {
+    "hierro": {
+      "total_armas": 53,
+      "mas_caro": {
+        "arma": "M107",
+        "cantidad": 320
+      },
+      "mas_barato": {
+        "arma": "Springfield 1873",
+        "cantidad": 5
+      }
+    },
+    "oro": {
+      "total_armas_con_oro": 38
+    },
+    "diamante": {
+      "total_armas_con_diamante": 30
+    },
+    "netherita": {
+      "total_armas_con_netherita": 20,
+      "armas": [
+        "SCAR-H",
+        "M95",
+        "M107",
+        "SPR-15 HB",
+        "AI AWP",
+        "MK14",
+        "AA-12",
+        "SPAS-12",
+        "M1014",
+        "Vector 45",
+        "P90",
+        "M249",
+        "RPK",
+        "FN Evolys",
+        "Minigun",
+        "FN FAL",
+        "RPG-7",
+        "M320",
+        "Taurus 500",
+        "Timeless 50"
+      ]
+    },
+    "polvo_glowstone": {
+      "total_armas_con_glowstone": 50
+    },
+    "bloque_magma": {
+      "total_armas_con_magma": 46
+    },
+    "carbon": {
+      "total_armas_con_carbon": 53
+    },
+    "polvo_redstone": {
+      "total_armas_con_redstone": 53
+    },
+    "cuarzo": {
+      "total_armas_con_cuarzo": 44
+    },
+    "vara_blaze": {
+      "total_armas_con_blaze": 18
+    },
+    "bloque_netherite": {
+      "total_armas_con_bloque_netherite": 12,
+      "armas": [
+        "M95",
+        "M107",
+        "AI AWP",
+        "AA-12",
+        "SPAS-12",
+        "M249",
+        "FN Evolys",
+        "Minigun",
+        "FN FAL",
+        "Taurus 500",
+        "Timeless 50"
+      ]
+    },
+    "bloque_oro": {
+      "total_armas_con_bloque_oro": 1,
+      "armas": [
+        "Minigun"
+      ]
+    }
+  }
+}

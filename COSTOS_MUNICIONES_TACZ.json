@@ -1,0 +1,414 @@
+{
+  "mod": "Timeless and Classics Zero (TaCZ)",
+  "version": "1.20.1",
+  "tabla_costos_municiones": {
+    "pistola_cartuchos": [
+      {
+        "nombre": ".22 WMR",
+        "id": "tacz:22wmr",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 100,
+        "materiales": {
+          "cobre": 10,
+          "pólvora": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.1,
+          "pólvora": 0.02
+        }
+      },
+      {
+        "nombre": ".45 ACP",
+        "id": "tacz:45acp",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 30,
+        "materiales": {
+          "cobre": 10,
+          "pólvora": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.33,
+          "pólvora": 0.07
+        }
+      },
+      {
+        "nombre": ".46x30",
+        "id": "tacz:46x30",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 48,
+        "materiales": {
+          "cobre": 12,
+          "pólvora": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.25,
+          "pólvora": 0.04
+        }
+      },
+      {
+        "nombre": ".57x28",
+        "id": "tacz:57x28",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 48,
+        "materiales": {
+          "cobre": 15,
+          "lapislazuli": 5,
+          "pólvora": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.31,
+          "lapislazuli": 0.1,
+          "pólvora": 0.04
+        }
+      },
+      {
+        "nombre": ".762x25",
+        "id": "tacz:762x25",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 45,
+        "materiales": {
+          "cobre": 10,
+          "pólvora": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.22,
+          "pólvora": 0.04
+        }
+      },
+      {
+        "nombre": "9mm",
+        "id": "tacz:9mm",
+        "grupo": "pd_cartridges",
+        "cantidad_producida": 50,
+        "materiales": {
+          "cobre": 10,
+          "pólvora": 2
+        },
+        "costo_por_unidad": {
+          "cobre": 0.2,
+          "pólvora": 0.04
+        }
+      }
+    ],
+    "rifle_cartuchos": [
+      {
+        "nombre": ".308 Winchester",
+        "id": "tacz:308",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 60,
+        "materiales": {
+          "cobre": 30,
+          "lapislazuli": 1,
+          "pólvora": 10
+        },
+        "costo_por_unidad": {
+          "cobre": 0.5,
+          "lapislazuli": 0.02,
+          "pólvora": 0.17
+        }
+      },
+      {
+        "nombre": ".30-06 Springfield",
+        "id": "tacz:30_06",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 20,
+          "pólvora": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 0.63,
+          "pólvora": 0.19
+        }
+      },
+      {
+        "nombre": ".338 Lapua Magnum",
+        "id": "tacz:338",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 18,
+        "materiales": {
+          "cobre": 25,
+          "lapislazuli": 4,
+          "pólvora": 8
+        },
+        "costo_por_unidad": {
+          "cobre": 1.39,
+          "lapislazuli": 0.22,
+          "pólvora": 0.44
+        }
+      },
+      {
+        "nombre": ".357 Magnum",
+        "id": "tacz:357mag",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 48,
+        "materiales": {
+          "cobre": 25,
+          "pólvora": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 0.52,
+          "pólvora": 0.13
+        }
+      },
+      {
+        "nombre": ".45-70 Government",
+        "id": "tacz:45_70",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 36,
+        "materiales": {
+          "cobre": 30,
+          "lapislazuli": 5,
+          "pólvora": 7
+        },
+        "costo_por_unidad": {
+          "cobre": 0.83,
+          "lapislazuli": 0.14,
+          "pólvora": 0.19
+        }
+      },
+      {
+        "nombre": ".500 Magnum",
+        "id": "tacz:500mag",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 32,
+        "materiales": {
+          "cobre": 40,
+          "lapislazuli": 5,
+          "pólvora": 10
+        },
+        "costo_por_unidad": {
+          "cobre": 1.25,
+          "lapislazuli": 0.16,
+          "pólvora": 0.31
+        }
+      },
+      {
+        "nombre": ".50 AE",
+        "id": "tacz:50ae",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 36,
+        "materiales": {
+          "cobre": 30,
+          "lapislazuli": 5,
+          "pólvora": 7
+        },
+        "costo_por_unidad": {
+          "cobre": 0.83,
+          "lapislazuli": 0.14,
+          "pólvora": 0.19
+        }
+      },
+      {
+        "nombre": ".5.45x39",
+        "id": "tacz:545x39",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 45,
+        "materiales": {
+          "cobre": 13,
+          "pólvora": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.29,
+          "pólvora": 0.07
+        }
+      },
+      {
+        "nombre": ".5.56x45 NATO",
+        "id": "tacz:556x45",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 45,
+        "materiales": {
+          "cobre": 15,
+          "pólvora": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.33,
+          "pólvora": 0.07
+        }
+      },
+      {
+        "nombre": ".5.8x42",
+        "id": "tacz:58x42",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 40,
+        "materiales": {
+          "cobre": 15,
+          "pólvora": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.375,
+          "pólvora": 0.075
+        }
+      },
+      {
+        "nombre": ".6.8x51 Fury",
+        "id": "tacz:68x51fury",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 40,
+        "materiales": {
+          "cobre": 15,
+          "pólvora": 5
+        },
+        "costo_por_unidad": {
+          "cobre": 0.375,
+          "pólvora": 0.125
+        }
+      },
+      {
+        "nombre": ".7.62x39",
+        "id": "tacz:762x39",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 35,
+        "materiales": {
+          "cobre": 15,
+          "pólvora": 3
+        },
+        "costo_por_unidad": {
+          "cobre": 0.43,
+          "pólvora": 0.09
+        }
+      },
+      {
+        "nombre": ".7.62x54R",
+        "id": "tacz:762x54",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 60,
+        "materiales": {
+          "cobre": 25,
+          "pólvora": 8
+        },
+        "costo_por_unidad": {
+          "cobre": 0.42,
+          "pólvora": 0.13
+        }
+      },
+      {
+        "nombre": ".7.92x57 Mauser",
+        "id": "tacz:792x57",
+        "grupo": "ifp_rifle_cartridges",
+        "cantidad_producida": 48,
+        "materiales": {
+          "cobre": 20,
+          "pólvora": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 0.42,
+          "pólvora": 0.13
+        }
+      }
+    ],
+    "escopeta_cartuchos": [
+      {
+        "nombre": "12 Gauge",
+        "id": "tacz:12g",
+        "grupo": "shotgun_shells",
+        "cantidad_producida": 18,
+        "materiales": {
+          "cobre": 15,
+          "pepita_hierro": 18,
+          "pólvora": 6
+        },
+        "costo_por_unidad": {
+          "cobre": 0.83,
+          "pepita_hierro": 1.0,
+          "pólvora": 0.33
+        }
+      }
+    ],
+    "explosivos": [
+      {
+        "nombre": "40mm Grenade",
+        "id": "tacz:40mm",
+        "grupo": "explosives",
+        "cantidad_producida": 6,
+        "materiales": {
+          "hierro": 3,
+          "cobre": 9,
+          "pólvora": 9
+        },
+        "costo_por_unidad": {
+          "hierro": 0.5,
+          "cobre": 1.5,
+          "pólvora": 1.5
+        }
+      },
+      {
+        "nombre": ".50 BMG",
+        "id": "tacz:50bmg",
+        "grupo": "lc_specialized",
+        "cantidad_producida": 24,
+        "materiales": {
+          "cobre": 110,
+          "lapislazuli": 12,
+          "vara_blaze": 1,
+          "pólvora": 20
+        },
+        "costo_por_unidad": {
+          "cobre": 4.58,
+          "lapislazuli": 0.5,
+          "vara_blaze": 0.04,
+          "pólvora": 0.83
+        }
+      },
+      {
+        "nombre": "RPG-7 Rocket",
+        "id": "tacz:rpg_rocket",
+        "grupo": "explosives",
+        "cantidad_producida": 3,
+        "materiales": {
+          "hierro": 3,
+          "cobre": 30,
+          "pólvora": 12
+        },
+        "costo_por_unidad": {
+          "hierro": 1.0,
+          "cobre": 10.0,
+          "pólvora": 4.0
+        }
+      }
+    ]
+  },
+  "resumen_materiales_municiones": {
+    "cobre": {
+      "total_municiones_usan": 24,
+      "mas_cara": {
+        "municion": ".50 BMG",
+        "cantidad": 110
+      },
+      "mas_barata": {
+        "municion": ".22 WMR",
+        "cantidad": 10
+      }
+    },
+    "pólvora": {
+      "total_municiones_usan": 25
+    },
+    "lapislazuli": {
+      "total_municiones_usan": 8
+    },
+    "pepita_hierro": {
+      "total_municiones_usan": 1
+    },
+    "hierro": {
+      "total_municiones_usan": 2
+    },
+    "vara_blaze": {
+      "total_municiones_usan": 1
+    }
+  },
+  "estadisticas": {
+    "total_tipos_municion": 25,
+    "costo_mas_alto_por_unidad": {
+      "municion": "RPG-7 Rocket",
+      "hierro": 1.0,
+      "cobre": 10.0,
+      "pólvora": 4.0
+    },
+    "costo_mas_bajo_por_unidad": {
+      "municion": ".22 WMR",
+      "cobre": 0.1,
+      "pólvora": 0.02
+    }
+  }
+}

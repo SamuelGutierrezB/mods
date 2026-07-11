@@ -1,0 +1,317 @@
+{
+  "mod": "Timeless and Classics Zero (TaCZ)",
+  "version": "1.20.1",
+  "_comentario": "Mapeo de materiales simplificados a etiquetas Forge/Minecraft oficiales para los nuevos costos",
+  "materiales_nuevos": {
+    "basicos": [
+      {
+        "nombre_simplificado": "carbon",
+        "nombre_es": "Carbón",
+        "etiqueta_minecraft": "minecraft:coal",
+        "etiqueta_forge": "forge:coal",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Minar mineral de carbón o matar Wither",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 53,
+        "usadas_en_municiones": 0
+      },
+      {
+        "nombre_simplificado": "polvo_redstone",
+        "nombre_es": "Polvo de Redstone",
+        "etiqueta_minecraft": "minecraft:redstone",
+        "etiqueta_forge": "forge:dust/redstone",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Minar mineral de redstone (Y: -64 a 16)",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 53,
+        "usadas_en_municiones": 18
+      },
+      {
+        "nombre_simplificado": "cuarzo",
+        "nombre_es": "Cuarzo",
+        "etiqueta_minecraft": "minecraft:quartz",
+        "etiqueta_forge": "forge:gems/quartz",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Nether - Minar bloques de cuarzo de Nether",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 44,
+        "usadas_en_municiones": 16
+      }
+    ],
+    "bloques": [
+      {
+        "nombre_simplificado": "bloque_magma",
+        "nombre_es": "Bloque de Magma",
+        "etiqueta_minecraft": "minecraft:magma_block",
+        "etiqueta_forge": "minecraft:magma_block",
+        "tipo": "bloque",
+        "rariedad": "rara",
+        "fuente": "Nether - Océanos de lava o Fortalezas del Nether",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 46,
+        "usadas_en_municiones": 0,
+        "notas": "Causa daño si se toca sin protección"
+      },
+      {
+        "nombre_simplificado": "bloque_netherite",
+        "nombre_es": "Bloque de Netherita",
+        "etiqueta_minecraft": "minecraft:netherite_block",
+        "etiqueta_forge": "minecraft:netherite_block",
+        "tipo": "bloque",
+        "rariedad": "muy_rara",
+        "fuente": "Combinar 9 lingotes de netherita en mesa de trabajo",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 12,
+        "usadas_en_municiones": 0,
+        "notas": "Crafteado con 9x Netherite Ingots"
+      },
+      {
+        "nombre_simplificado": "bloque_oro",
+        "nombre_es": "Bloque de Oro",
+        "etiqueta_minecraft": "minecraft:gold_block",
+        "etiqueta_forge": "forge:storage_blocks/gold",
+        "tipo": "bloque",
+        "rariedad": "rara",
+        "fuente": "Combinar 9 lingotes de oro en mesa de trabajo",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 1,
+        "usadas_en_municiones": 0,
+        "notas": "Solo en Minigun - Crafteado con 9x Gold Ingots"
+      }
+    ],
+    "polvos_cristales": [
+      {
+        "nombre_simplificado": "polvo_glowstone",
+        "nombre_es": "Polvo de Resplandor",
+        "etiqueta_minecraft": "minecraft:glowstone_dust",
+        "etiqueta_forge": "forge:dust/glowstone",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Nether - Romper bloques de Glowstone (si tienes Silktouch, da el bloque)",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 50,
+        "usadas_en_municiones": 2,
+        "notas": "En Nether, 1 bloque = 4 polvo"
+      }
+    ],
+    "gemas": [
+      {
+        "nombre_simplificado": "diamante",
+        "nombre_es": "Diamante",
+        "etiqueta_minecraft": "minecraft:diamond",
+        "etiqueta_forge": "forge:gems/diamond",
+        "tipo": "item",
+        "rariedad": "rara",
+        "fuente": "Minar a Y: -64 a -16 (mejor en Y: -59)",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 30,
+        "usadas_en_municiones": 0
+      },
+      {
+        "nombre_simplificado": "lapislazuli",
+        "nombre_es": "Lapislazuli",
+        "etiqueta_minecraft": "minecraft:lapis_lazuli",
+        "etiqueta_forge": "forge:gems/lapis",
+        "tipo": "item",
+        "rariedad": "rara",
+        "fuente": "Minar mineral de lapislazuli",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 0,
+        "usadas_en_municiones": 12
+      },
+      {
+        "nombre_simplificado": "amatista",
+        "nombre_es": "Amatista",
+        "etiqueta_minecraft": "minecraft:amethyst_shard",
+        "etiqueta_forge": "forge:gems/amethyst",
+        "tipo": "item",
+        "rariedad": "rara",
+        "fuente": "Geoda de amatista - Romper cristales de amatista",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 4,
+        "usadas_en_municiones": 0
+      }
+    ],
+    "metales": [
+      {
+        "nombre_simplificado": "hierro",
+        "nombre_es": "Hierro (Lingote)",
+        "etiqueta_minecraft": "minecraft:iron_ingot",
+        "etiqueta_forge": "forge:ingots/iron",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Minar mineral de hierro",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 53,
+        "usadas_en_municiones": 2
+      },
+      {
+        "nombre_simplificado": "oro",
+        "nombre_es": "Oro (Lingote)",
+        "etiqueta_minecraft": "minecraft:gold_ingot",
+        "etiqueta_forge": "forge:ingots/gold",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Minar mineral de oro",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 38,
+        "usadas_en_municiones": 0
+      },
+      {
+        "nombre_simplificado": "cobre",
+        "nombre_es": "Cobre (Lingote)",
+        "etiqueta_minecraft": "minecraft:copper_ingot",
+        "etiqueta_forge": "forge:ingots/copper",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Minar mineral de cobre",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 0,
+        "usadas_en_municiones": 24
+      },
+      {
+        "nombre_simplificado": "netherita",
+        "nombre_es": "Netherita (Lingote)",
+        "etiqueta_minecraft": "minecraft:netherite_ingot",
+        "etiqueta_forge": "forge:ingots/netherite",
+        "tipo": "item",
+        "rariedad": "muy_rara",
+        "fuente": "Nether - Refinar ancient debris con carbón en horno",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 20,
+        "usadas_en_municiones": 0
+      }
+    ],
+    "otros": [
+      {
+        "nombre_simplificado": "vara_blaze",
+        "nombre_es": "Vara de Blaze",
+        "etiqueta_minecraft": "minecraft:blaze_rod",
+        "etiqueta_forge": "forge:rods/blaze",
+        "tipo": "item",
+        "rariedad": "rara",
+        "fuente": "Derrotar Blazes en Nether (Fortalezas)",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 18,
+        "usadas_en_municiones": 0
+      },
+      {
+        "nombre_simplificado": "madera",
+        "nombre_es": "Madera (Tronco)",
+        "etiqueta_minecraft": "minecraft:logs",
+        "etiqueta_forge": "forge:logs",
+        "tipo": "bloque",
+        "rariedad": "común",
+        "fuente": "Talar árboles",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 0,
+        "usadas_en_municiones": 0,
+        "notas": "Cualquier tipo de tronco funciona (roble, pino, etc)"
+      },
+      {
+        "nombre_simplificado": "pólvora",
+        "nombre_es": "Pólvora",
+        "etiqueta_minecraft": "minecraft:gunpowder",
+        "etiqueta_forge": "forge:gunpowder",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Matar Creepers o Ghasts, loot en cofres",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 0,
+        "usadas_en_municiones": 25
+      },
+      {
+        "nombre_simplificado": "pepita_hierro",
+        "nombre_es": "Pepita de Hierro",
+        "etiqueta_minecraft": "minecraft:iron_nugget",
+        "etiqueta_forge": "forge:nuggets/iron",
+        "tipo": "item",
+        "rariedad": "común",
+        "fuente": "Derretir herramientas/armas de hierro en horno",
+        "disponible_vanilla": true,
+        "usadas_en_armas": 0,
+        "usadas_en_municiones": 1
+      }
+    ]
+  },
+  "diccionario_rapido": {
+    "carbon": "minecraft:coal",
+    "polvo_redstone": "minecraft:redstone",
+    "cuarzo": "minecraft:quartz",
+    "bloque_magma": "minecraft:magma_block",
+    "bloque_netherite": "minecraft:netherite_block",
+    "bloque_oro": "minecraft:gold_block",
+    "polvo_glowstone": "minecraft:glowstone_dust",
+    "diamante": "minecraft:diamond",
+    "lapislazuli": "minecraft:lapis_lazuli",
+    "amatista": "minecraft:amethyst_shard",
+    "hierro": "minecraft:iron_ingot",
+    "oro": "minecraft:gold_ingot",
+    "cobre": "minecraft:copper_ingot",
+    "netherita": "minecraft:netherite_ingot",
+    "vara_blaze": "minecraft:blaze_rod",
+    "madera": "minecraft:logs",
+    "pólvora": "minecraft:gunpowder",
+    "pepita_hierro": "minecraft:iron_nugget"
+  },
+  "diccionario_forge": {
+    "carbon": "forge:coal",
+    "polvo_redstone": "forge:dust/redstone",
+    "cuarzo": "forge:gems/quartz",
+    "polvo_glowstone": "forge:dust/glowstone",
+    "diamante": "forge:gems/diamond",
+    "lapislazuli": "forge:gems/lapis",
+    "amatista": "forge:gems/amethyst",
+    "hierro": "forge:ingots/iron",
+    "oro": "forge:ingots/gold",
+    "cobre": "forge:ingots/copper",
+    "netherita": "forge:ingots/netherite",
+    "vara_blaze": "forge:rods/blaze",
+    "madera": "forge:logs",
+    "pólvora": "forge:gunpowder",
+    "pepita_hierro": "forge:nuggets/iron"
+  },
+  "estadisticas": {
+    "total_materiales_unicos": 18,
+    "materiales_nuevos_vs_originales": {
+      "nuevos": [
+        "carbon",
+        "polvo_redstone",
+        "bloque_magma",
+        "polvo_glowstone",
+        "bloque_netherite",
+        "bloque_oro"
+      ],
+      "originales": [
+        "hierro",
+        "oro",
+        "diamante",
+        "lapislazuli",
+        "cuarzo",
+        "amatista",
+        "cobre",
+        "netherita",
+        "vara_blaze",
+        "madera",
+        "pólvora",
+        "pepita_hierro"
+      ]
+    },
+    "materiales_mas_usados": {
+      "1": "carbon (53 armas)",
+      "2": "polvo_redstone (53 armas + 18 municiones)",
+      "3": "polvo_glowstone (50 armas + 2 municiones)",
+      "4": "bloque_magma (46 armas)",
+      "5": "cuarzo (44 armas + 16 municiones)"
+    }
+  },
+  "notas_importantes": {
+    "vanilla_vs_forge": "Se pueden usar ambas etiquetas - Forge es más compatible con otros mods",
+    "bloques_crafting": "Los bloques (magma, netherite, gold) se pueden convertir de/a lingotes",
+    "alternativas": "Si un material no existe, se puede reemplazar con equivalente (ej: carbon por carbón de madera)",
+    "validacion": "Todos los materiales son vanilla de Minecraft 1.20.1"
+  }
+}
