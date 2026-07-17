@@ -1,6 +1,10 @@
 __pycache__/
 *.pyc
 
+# Claves SSH del servidor - nunca subir al repo
+gestion-servidor/*.key
+gestion-servidor/*.key.pub
+
 # Mods solo de cliente - no se necesitan en el servidor (rama server)
 BetterF3-7.0.2-Forge-1.20.1.jar
 MouseTweaks-forge-mc1.20.1-2.25.1.jar
