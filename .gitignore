@@ -1,7 +1,2 @@
 __pycache__/
 *.pyc
-
-# Acceso al servidor - no compartir (claves y datos de conexion)
-gestion-servidor/*.key
-gestion-servidor/*.key.pub
-gestion-servidor/acceso/
