@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Claves SSH del servidor - nunca subir al repo
+gestion-servidor/*.key
+gestion-servidor/*.key.pub
