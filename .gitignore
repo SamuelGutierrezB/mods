@@ -1,2 +1,13 @@
 __pycache__/
 *.pyc
+
+# Mods solo de cliente - no se necesitan en el servidor (rama server)
+BetterF3-7.0.2-Forge-1.20.1.jar
+MouseTweaks-forge-mc1.20.1-2.25.1.jar
+embeddium-0.3.31+mc1.20.1.jar
+oculus-mc1.20.1-1.8.0.jar
+xaerominimap-forge-1.20.1-26.2.0.jar
+sound-physics-remastered-forge-1.20.1-1.5.1.jar
+jei-1.20.1-forge-15.20.0.112.jar
+acceleratedrendering-1.0.11.1-1.20.1-alpha.jar
+Highlighter-1.20.1-forge-1.1.9.jar
