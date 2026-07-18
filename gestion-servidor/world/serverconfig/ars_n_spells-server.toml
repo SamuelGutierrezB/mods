@@ -1,0 +1,357 @@
+
+["Master Toggles"]
+	#Master control switches for major systems.
+	#Disabling a master toggle will disable all related features.
+	#Mana Unification Mode - Controls how Ars Nouveau and Iron's Spellbooks mana systems interact:
+	#  iss_primary - Iron's Spellbooks mana is the single source (DEFAULT)
+	#  ars_primary - Ars Nouveau mana is the single source
+	#  hybrid - Both systems share a unified mana pool
+	#  separate - Separate pools with dual-cost mechanics
+	#  disabled - No mana integration at all
+	#NOTE: Changing this value requires a game restart to take effect.
+	mana_unification_mode = "iss_primary"
+	#Master toggle for all mana unification features.
+	#NOTE: when false, mana_unification_mode is forced to DISABLED regardless
+	#of its configured value. Prefer mana_unification_mode = "disabled" for
+	#the canonical 'off' state — this boolean is the master kill-switch.
+	enable_mana_unification = true
+	#Master toggle for the Resonance system (full mana bonuses)
+	enable_resonance_system = true
+	#Master toggle for unified cooldown system
+	enable_cooldown_system = false
+	#Master toggle for cross-mod progression system
+	enable_progression_system = true
+	#Master toggle for affinity/attunement system
+	enable_affinity_system = true
+	#Enable debug logging for troubleshooting
+	debug_mode = false
+
+["Mana Unification"]
+	#Fine-tune how mana conversion and synchronization works.
+	#These settings only apply when mana unification is enabled.
+	#Conversion rate from Ars mana to Iron's mana (1.0 = 1:1)
+	#Range: 0.01 ~ 10.0
+	conversion_rate_ars_to_iron = 1.0
+	#Conversion rate from Iron's mana to Ars mana (1.0 = 1:1)
+	#Range: 0.01 ~ 10.0
+	conversion_rate_iron_to_ars = 1.0
+	#Which mana bar to display in HYBRID mode:
+	#  irons - Show Iron's Spellbooks mana bar
+	#  ars - Show Ars Nouveau mana bar
+	#Only applies when mana_unification_mode is set to 'hybrid'
+	hybrid_mana_bar = "irons"
+	#Hide the Ars Nouveau and Iron's Spellbooks mana bars while wearing the
+	#Ring of the Seven Curses (LP) or Ring of the Seven Virtues (Aura).
+	#Spells consume LP/Aura instead of mana when these rings are equipped,
+	#so displaying a mana bar is misleading.
+	hide_mana_bar_with_ring = true
+	#Percentage of Ars mana cost in SEPARATE mode (0.5 = 50%)
+	#Range: 0.0 ~ 1.0
+	dual_cost_ars_percentage = 0.5
+	#Percentage of ISS mana cost in SEPARATE mode (0.5 = 50%)
+	#Range: 0.0 ~ 1.0
+	dual_cost_iss_percentage = 0.5
+	#Default maximum mana fallback when the native system returns no value.
+	#Can be changed at runtime with /ans mana setdefault <value>
+	#Applies to both Ars Nouveau and Iron's Spellbooks bridge fallbacks.
+	#Range: 1.0 ~ 100000.0
+	default_max_mana = 100.0
+	#Include armor bonuses in unified mana calculations
+	respect_armor_bonuses = true
+	#Include enchantment bonuses in unified mana calculations
+	respect_enchantments = true
+	#How mana regen values are translated when crossing the Ars / Iron's boundary.
+	#Iron's regen is a percentage-of-pool multiplier; Ars regen is absolute mana/sec.
+	#Without conversion, an Ars enchantment like Mana Regen III applied to Iron's regen
+	#will produce hundreds of mana/sec because the absolute value is misread as a percentage.
+	#  EQUAL_EFFECT  - Convert by the target system's current max pool (DEFAULT, recommended).
+	#                  Preserves equivalent mana/sec on both sides at any pool size.
+	#  REFERENCE_POOL - Convert using a fixed reference pool (see cross_system_regen_reference_pool).
+	#                   Predictable but ignores the wearer's actual pool size.
+	#  DISABLED      - Do not translate cross-system regen at all. Mana Regen enchantments
+	#                  on Ars only affect Ars; Iron's gear regen only affects Iron's.
+	cross_system_regen_conversion = "EQUAL_EFFECT"
+	#Global dampener applied to every cross-system regen translation.
+	#Use to tone down or boost the strength of cross-mod regen bonuses without
+	#disabling them entirely. 1.0 = full strength, 0.5 = half, 2.0 = double.
+	#Range: 0.0 ~ 100.0
+	cross_system_regen_multiplier = 1.0
+	#Reference pool size used by REFERENCE_POOL conversion mode.
+	#Has no effect when cross_system_regen_conversion is EQUAL_EFFECT or DISABLED.
+	#Range: 1.0 ~ 100000.0
+	cross_system_regen_reference_pool = 100.0
+
+["Resonance System"]
+	#Resonance grants bonuses when mana is at maximum.
+	#Requires ENABLE_RESONANCE_SYSTEM master toggle.
+	#Enable resonance bonuses for Ars Nouveau spells
+	enable_ars_resonance = true
+	#Enable resonance bonuses for Iron's Spellbooks spells
+	enable_irons_resonance = true
+	#Global multiplier for all resonance bonuses
+	#Range: 0.0 ~ 10.0
+	resonance_strength = 1.0
+	#Mana percentage required to trigger resonance (0.95 = 95%)
+	#Range: 0.0 ~ 1.0
+	resonance_threshold = 0.95
+	#How long resonance lasts after dropping below threshold (ticks)
+	#Range: 0 ~ 1200
+	resonance_duration = 100
+	#Maximum damage multiplier from resonance
+	#Range: 1.0 ~ 100.0
+	max_damage_multiplier = 5.0
+
+["Cooldown System"]
+	#Unified cooldown system prevents spell spam across mods.
+	#Requires ENABLE_COOLDOWN_SYSTEM master toggle.
+	#Enable cross-mod cooldown sharing
+	enable_unified_cooldowns = false
+	#CRITICAL: Enable cross-mod cooldown interference (false = each mod has independent cooldowns)
+	enable_cross_mod_cooldowns = false
+	#Base category cooldown duration (ticks, 20 = 1 second)
+	#Range: 0 ~ 10000
+	cooldown_category_duration = 100
+	#Multiplier for cross-mod cooldowns (0.5 = 50% of normal)
+	#Range: 0.0 ~ 10.0
+	cross_mod_cooldown_multiplier = 0.5
+
+["Progression System"]
+	#Cross-mod progression allows spell usage to grant XP in both systems.
+	#Requires ENABLE_PROGRESSION_SYSTEM master toggle.
+	#Allow Ars spells to grant ISS XP and vice versa
+	enable_cross_mod_progression = true
+	#Attribute bonus gained per cast in a school (audit F4 — was hardcoded 0.001).
+	#0.001 = +0.1% per cast. The bonus is transient (derived from the persistent
+	#cast count), so changing this immediately rescales every player's bonus.
+	#Range: 0.0 ~ 0.1
+	progression_bonus_per_cast = 0.001
+	#Cap on the per-school progression attribute bonus (audit F4 — was hardcoded 0.25).
+	#0.25 = +25% maximum, reached after bonus_cap / bonus_per_cast casts
+	#(250 casts at defaults).
+	#Range: 0.0 ~ 2.0
+	progression_bonus_cap = 0.25
+
+["Affinity System"]
+	#Affinity system tracks spell school preferences and grants bonuses.
+	#Requires ENABLE_AFFINITY_SYSTEM master toggle.
+	#Enable affinity decay when not casting matching-school spells.
+	#Default changed to false in 1.9.0 — the previous true default was a no-op
+	#(decay was never implemented), so flipping it on by default would surprise
+	#existing players. Existing config files retain their previous value.
+	enable_affinity_decay = false
+	#Fraction of current affinity to lose per Minecraft day (24000 ticks).
+	#0.01 = lose 1% of each school's affinity per in-game day; with the default
+	#interval (1200 ticks = 60s), each tick window decays roughly 0.05% of current.
+	#Range: 0.0 ~ 1.0
+	affinity_decay_rate = 0.01
+	#How often (in ticks) the decay handler ticks each player. 1200 = once per minute.
+	#Range: 20 ~ 24000
+	affinity_decay_interval_ticks = 1200
+
+["Curio Discount System"]
+	#Mana cost discounts from Covenant of the Seven curios.
+	#Ring of Virtue and Blasphemy curios can reduce Ars Nouveau spell costs.
+	#Enable mana cost discounts from Blasphemy curios.
+	#Note: the Ring of Virtue is no longer a mana discount — it converts mana to
+	#aura via VirtueRingHandler. The legacy virtue_ring_discount key was removed in 1.10.0.
+	enable_curio_discounts = true
+	#Base mana cost discount from Blasphemy curios (0.15 = 15% reduction)
+	#Range: 0.0 ~ 1.0
+	blasphemy_discount = 0.15
+	#Additional discount when Blasphemy school matches spell school (0.10 = 10% extra)
+	#Range: 0.0 ~ 1.0
+	blasphemy_matching_school_bonus = 0.1
+	#Read max-mana / mana-regen attribute modifiers from worn Curios (rings, amulets,
+	#belts) and mirror them across the unified mana pool, the same way armor/weapon
+	#modifiers are handled. This is what lets Apotheosis (Apothic Curios) affixes and
+	#sockets, as well as other curio mana gear (Magical Jewelry, Jewelcraft, etc.),
+	#feed the Ars <-> Iron's bridge. Disable if a curio affix balance proves overpowered.
+	read_curio_attribute_modifiers = true
+
+["Cursed Ring LP System"]
+	#Controls behavior when casting spells with insufficient LP (Cursed Ring).
+	#Applies to both Ars Nouveau and Iron's Spellbooks spells.
+	#Master toggle for the Cursed Ring LP system.
+	#When disabled, spells use normal mana even with Cursed Ring equipped.
+	enable_lp_system = true
+	#Where to consume LP from when wearing the Cursed Ring:
+	#  BLOOD_MAGIC_PRIORITY - Use Blood Magic if available, fall back to health (DEFAULT)
+	#  BLOOD_MAGIC_ONLY - Only use Blood Magic Soul Network (fails if Blood Magic not installed)
+	#  HEALTH_ONLY - Always use player health (100 LP = 10 health = 5 hearts)
+	lp_source_mode = "BLOOD_MAGIC_PRIORITY"
+	#If enabled: Spell casts but player dies when LP is insufficient
+	#If disabled: Spell is cancelled and player takes minor damage (1 heart)
+	death_on_insufficient_lp = false
+	#Show LP cost messages in action bar when casting spells
+	show_lp_cost_messages = true
+
+["LP Calculation - Ars Nouveau"]
+	#Configure how LP costs are calculated for Ars Nouveau spells.
+	#Formula: LP = (Mana Cost × Base Multiplier) × Tier Multiplier
+	#Health cost = LP / 10 (so 10 LP = 1 health = 0.5 hearts)
+	#Minimum LP cost is enforced after all calculations.
+	#Base LP multiplier (Mana × this value = base LP cost)
+	#Default 1.0: A 20 mana spell costs ~30 LP = 3 health (1.5 hearts)
+	#Range: 0.1 ~ 100.0
+	ars_lp_base_multiplier = 1.0
+	#LP multiplier for Tier 1 glyphs
+	#Range: 0.1 ~ 10.0
+	ars_lp_tier1_multiplier = 1.5
+	#LP multiplier for Tier 2 glyphs
+	#Range: 0.1 ~ 10.0
+	ars_lp_tier2_multiplier = 2.0
+	#LP multiplier for Tier 3 glyphs
+	#Range: 0.1 ~ 10.0
+	ars_lp_tier3_multiplier = 2.5
+	#Minimum LP cost for any Ars Nouveau spell (10 LP = 1 health)
+	#Range: 1 ~ 10000
+	ars_lp_minimum_cost = 10
+
+["LP Calculation - Iron's Spellbooks"]
+	#Configure how LP costs are calculated for Iron's Spellbooks spells.
+	#Formula: LP = (Mana Cost × Base Multiplier) × (1 + Level × Level Multiplier) × Rarity Multiplier
+	#Health cost = LP / 10 (so 10 LP = 1 health = 0.5 hearts)
+	#Minimum LP cost is enforced after all calculations.
+	#Base LP multiplier (Mana × this value = base LP cost)
+	#Default 0.5: Iron's spells have higher base mana costs, so use lower multiplier
+	#Range: 0.1 ~ 100.0
+	irons_lp_base_multiplier = 0.5
+	#Additional LP cost per spell level (0.1 = 10% per level)
+	#Range: 0.0 ~ 10.0
+	irons_lp_per_level_multiplier = 0.1
+	#Minimum LP cost for any Iron's Spellbooks spell (10 LP = 1 health)
+	#Range: 1 ~ 10000
+	irons_lp_minimum_cost = 10
+
+["LP Rarity Multipliers - Iron's Spells"]
+	#Multipliers based on spell rarity for Iron's Spellbooks.
+	#Higher rarity = higher LP cost.
+	#LP multiplier for COMMON rarity spells
+	#Range: 0.1 ~ 100.0
+	irons_lp_common_multiplier = 1.0
+	#LP multiplier for UNCOMMON rarity spells
+	#Range: 0.1 ~ 100.0
+	irons_lp_uncommon_multiplier = 1.5
+	#LP multiplier for RARE rarity spells
+	#Range: 0.1 ~ 100.0
+	irons_lp_rare_multiplier = 2.0
+	#LP multiplier for EPIC rarity spells
+	#Range: 0.1 ~ 100.0
+	irons_lp_epic_multiplier = 3.0
+	#LP multiplier for LEGENDARY rarity spells
+	#Range: 0.1 ~ 100.0
+	irons_lp_legendary_multiplier = 5.0
+
+["Virtue Ring"]
+	#Cost-mapping knob for Ars Nouveau spells cast while wearing the Ring of
+	#Seven Virtues. Covenant of the Seven owns the actual aura pool, regen,
+	#max, and HUD — we only decide how to translate an Ars mana cost into an
+	#aura cost. Iron's Spellbooks spells are handled entirely by Covenant's
+	#native integration and do not use this knob.
+	#Master toggle for the Virtue Ring (Ring of Seven Virtues) aura-cost path.
+	#When false, Ars Nouveau spells cast while wearing the Virtue Ring use normal
+	#mana instead of Covenant aura. Mirrors enable_lp_system for the Cursed Ring,
+	#giving server owners a way to disable the aura path entirely.
+	enable_virtue_aura_system = true
+	#Multiplier applied to Ars Nouveau mana cost to derive the Covenant-aura cost.
+	#1.0 = aura cost equals mana cost. Tune up to make the Virtue Ring path more
+	#expensive than vanilla casting, or down to make it cheaper.
+	#Range: 0.1 ~ 10.0
+	ars_virtue_aura_multiplier = 1.0
+	#What happens to Virtue Ring aura-cost checks when the Covenant/Nature's Aura
+	#reflection bridge is unavailable (e.g. an untested Covenant update changed
+	#its internals):
+	#  open   - allow the cast without an aura check (availability over economy;
+	#           casts are effectively free while degraded — pre-3.0.2 behavior)
+	#  closed - block Virtue Ring casts until the bridge works again
+	#Either way the first degraded decision per session is logged at WARN.
+	aura_failure_mode = "open"
+
+["Scroll Cost System"]
+	#Controls resource costs when casting Iron's Spellbooks spells from scrolls.
+	#Cost mode for Iron's Spellbooks scroll usage:
+	#  full - Scrolls consume mana and LP just like normal casting
+	#  lp_only - Scrolls are free of mana cost but still consume LP if Cursed Ring equipped
+	#  free - Scrolls have no resource cost (LP from Cursed Ring still applies)
+	scroll_cost_mode = "full"
+
+["Spell Scaling"]
+	#Controls how spell power from Iron's attributes scales Ars spells.
+	#Maximum total spell power multiplier from Iron's attributes.
+	#Prevents stacking from exceeding this value. Set higher to allow more scaling.
+	#Range: 1.0 ~ 10.0
+	spell_power_cap = 3.0
+
+["Blasphemy Ring Discounts"]
+	#Independent discount rates for LP and Aura costs when Blasphemy curios are equipped.
+	#These are separate from the mana discount (configured in Curio Discount System).
+	#LP cost discount when matching Blasphemy is equipped (0.85 = 85% discount, pay only 15%)
+	#Range: 0.0 ~ 1.0
+	blasphemy_lp_discount = 0.85
+
+["Source Jar Synergy"]
+	#Controls the passive mana regen bonus when near Ars Nouveau Source Jars.
+	#Master kill switch for the Source Jar proximity regen synergy.
+	#Set false to disable the periodic block scan entirely (zero per-tick cost).
+	#This is the supported way to turn the feature off;
+	#source_jar_synergy_multiplier keeps its 0.1 minimum. (ANS-CRIT-005 follow-up)
+	enable_source_jar_synergy = true
+	#Ticks between Source Jar proximity checks per player (20 = once per second).
+	#Raise on busy servers to reduce scan cost.
+	#Range: 1 ~ 200
+	source_jar_scan_interval_ticks = 20
+	#Horizontal scan radius in blocks around the player.
+	#Any value up to the hard cap of 8 covers at most a 2x2 chunk area.
+	#The scan never loads chunks - cycles near unloaded chunks are skipped and retried.
+	#Range: 1 ~ 8
+	source_jar_scan_radius = 4
+	#Multiplier for Source Jar proximity regen bonus.
+	#Higher values = stronger regen when standing near Source Jars.
+	#Final bonus = CONVERSION_RATE_ARS_TO_IRON * this value per second.
+	#To disable the feature use enable_source_jar_synergy = false, not a zero multiplier.
+	#Range: 0.1 ~ 100.0
+	source_jar_synergy_multiplier = 5.0
+
+[Rituals]
+	#Configuration for Ars 'n' Spells custom rituals.
+	#Amount of mana added by the Ritual of Mana Infusion.
+	#Capped at 10000 to prevent trivial infinite-mana from repeat casts.
+	#Range: 1.0 ~ 10000.0
+	ritual_mana_infusion_amount = 500.0
+	#Radius in blocks for Mana Well ritual effect
+	#Range: 1 ~ 64
+	mana_well_range = 8
+	#Mana per tick granted to players within Mana Well range
+	#Range: 0.1 ~ 100.0
+	mana_well_regen_rate = 2.0
+
+["Cross-Cast Inscription"]
+	#Controls spells cast from items inscribed via the Spell Transcription ritual.
+	#The inscription mechanic itself lives in the datapack recipe under
+	#data/ars_n_spells/recipes/apparatus/ -- pack authors can swap ingredients there.
+	#Multiplier applied to the base mana cost of a spell cast from an inscribed item.
+	#Represents the overhead of casting through a foreign mod's form. 1.0 = no overhead,
+	#1.25 = 25% extra cost (default). Applied once, after base cost calculation and
+	#before mana deduction. Routed through BridgeManager, so it composes with the
+	#active mana unification mode and SEPARATE-mode dual-cost splitting.
+	#Range: 0.5 ~ 5.0
+	cross_cast_cost_multiplier = 1.25
+	#Allow Ars Nouveau spells to be bound onto Iron's Spellbooks spellbooks, where
+	#they appear as their own entries in Iron's native spell wheel and cast through
+	#Ars 'n Spells' cross-cast pipeline. Disabling rejects new binds with a clear
+	#message; spells already bound keep working. No effect without Iron's installed.
+	allow_ars_spells_in_irons_spellbooks = true
+	#Maximum number of Ars spells that may be bound onto a single Iron's spellbook.
+	#-1 = no cap (default). Whatever the value, it is bounded at runtime by the
+	#native-wheel proxy pool size (8): only that many
+	#Ars entries can be shown as distinct entries in Iron's spell wheel per book.
+	#Range: -1 ~ 64
+	max_ars_cross_spells_per_irons_spellbook = -1
+
+[Performance]
+	#Performance optimization settings
+	#Distance in blocks a player must move before re-scanning for Source Jars.
+	#Higher values = less scanning but slower detection of jar changes.
+	#Range: 1.0 ~ 32.0
+	source_jar_cache_move_threshold = 4.0
+
